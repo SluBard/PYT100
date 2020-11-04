@@ -1,0 +1,44 @@
+This is the description file for a small project in Python.
+There are two data files for this project.
+
+(1)
+The flights.txt file looks like this:
+
+Boston,Allentown,123
+Cleveland,Boston,124
+Chicago,Cleveland,125
+Boston,Denver,126
+Cleveland,Fargo,127
+Chicago,Gastonia,128
+
+(2)
+Read the flights.txt file into a list
+
+(3)
+The passengers.txt file looks like this:
+
+Mike,McDonald,123,1A
+Judy,McDonald,123,1B
+Susan,McDonald,123,1C
+Donald,Smith,124,1A
+Patti,Smith,124,1B
+Brian,Smith,124,1C
+Erin,Harkins,125,1A
+Beth,Harkins,125,1B
+Joe,Harkins,125,1C
+
+(4)
+Read each of these records into your program and find the flight
+for each record. Add these records to the appropriate flight.
+
+
+
+Data Structures for this problem:
+1) A Flight class
+2) A Passenger class
+3) A list of flights.
+   Each flight will also have room for a list of passengers.
+4) As you read passengers into your program, see which flight they are on
+   and then add that Passenger object to the list for that flight.
+5) Your program should be able to print the list of flights, the list of
+   passengers for each flight and the number of passengers on each flight.
