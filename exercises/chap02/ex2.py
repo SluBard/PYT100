@@ -1,0 +1,5 @@
+data1 = input("Enter a first number: ")
+data2 = input("Enter a second number: ")
+int1 = int(data1)
+int2 = int(data2)
+print("Product of {} and {} is {}".format(int1,int2,int1*int2))

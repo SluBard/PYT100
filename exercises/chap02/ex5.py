@@ -1,0 +1,6 @@
+data1 = input("Enter a string: ")
+print("Ends with '.': {}".format(data1.endswith('.')))
+print("All alpha: {}".format(data1.isalpha()))
+print("Contains 'x': {}".format('x' in data1))
+print("Length of string: {}".format(len(data1)))
+print("'e'->'E': {}".format(data1.replace('e','E')))
