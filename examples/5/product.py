@@ -4,5 +4,6 @@ def product(begin, *items):
     for i in items:
         res *= i
     return res
+
 result = product(5, 3, 4, 2)
 print(result)
