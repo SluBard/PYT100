@@ -20,7 +20,7 @@ while True:
         print("Illegal subscript:", ie)
 
     except KeyError as ke:
-        print("Illegal key")
+        print("Illegal key", ke)
 
     except:
         print("Unknown Error: ")

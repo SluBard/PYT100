@@ -6,6 +6,8 @@ from sys import argv
 
 total = 0
 for item in argv[1:]:
-    total += float(item)
+    #total += float(item)
+    total += int(item)
 
-print(total / len(argv[1:]))
+#print(total / len(argv[1:]))
+print(total)

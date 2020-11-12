@@ -9,8 +9,9 @@ def findmax(a,b):
     return max;
 
 try:
+    print(findmax(3,3))
     print(findmax(2,3))
     print(findmax(3,2))
-    print(findmax(3,3))
+
 except AssertionError:
     print("Assertion Failed:")

@@ -11,7 +11,7 @@ def fun():
     return fibonacci
 
 result = fun()
-
-for i in range(10):
+print(result.__name__)
+for i in range(20):
     print(result(), end = " ")
 print()

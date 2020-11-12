@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from reuseable import *
+from reuseable import square, cube
 
 print("Module name is: " + __name__)
 
