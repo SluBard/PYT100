@@ -17,5 +17,5 @@ while True:
 	
     except ValueError:
         print("result is not an integer")
-    except IndexError:
-        print("index out of range")
+    except IndexError as err:
+        print("index out of range: {}".format(err))
