@@ -8,7 +8,7 @@ class Person:
         self.age = age
         self.sex = sex
 
-	def __str__(self):
+    def __str__(self):
         s = self.name + " "
         s += str(self.age) + " "
         s += self.sex
