@@ -13,5 +13,5 @@ print(len(stars), ":", stars) # 9 : *********
 x = "Hello there"
 print('t' in x)     # True
 print('ell' in x)   # True
-print('Hell' in x)  # False 
+print('hell' in x)  # False 
 

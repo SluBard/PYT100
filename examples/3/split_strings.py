@@ -9,3 +9,4 @@ print()
 pieces = txt2.split()
 for piece in pieces:
     print(piece)
+

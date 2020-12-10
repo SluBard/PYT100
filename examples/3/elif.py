@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-x = 5
+x = 0
 if x <= 5:
 	print("x le 5")
 elif x <= 10:
