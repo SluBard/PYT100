@@ -6,3 +6,4 @@ def printmsg():
 print(printmsg)
 print(type(printmsg))
 print(id(printmsg))
+printmsg()
