@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-import os
+import platform #os
 
 data = [ "mike", "jane", "alice", "ruth" ]
 
-p = os.popen("sort", "w")
+p = platform.popen("sort", "w")
 for i in data:
     print(i, file=p)
 

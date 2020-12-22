@@ -3,8 +3,9 @@ import sys
 sys.argv.pop(0)
 
 for fname in sys.argv:
+
+    file = open(fname, "r")
     chars = words = lines = 0
-    file = open(sys.argv[0], "r")
 
     while True:
         line = file.readline()
