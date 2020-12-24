@@ -6,7 +6,7 @@ import re
 
 while True:
     line = input("input an floating point number: ")
-    ans = re.search("^[+-]?\d+\.\d+$",line)
+    ans = re.search("^[+-]?\d*\.\d+$",line) #first d* was d+
     if ans:
         print(line, " is a floating point number")
         if line[0] == '-':

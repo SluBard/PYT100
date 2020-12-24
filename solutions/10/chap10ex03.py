@@ -6,7 +6,7 @@ import re
 
 while True:
     line = input("input a line: NNAA ... DESC: ")
-    ans = re.search("^(\d\d)([A-Z][A-Z])\s+(.*)$", line)
+    ans = re.search("^(\d\d)([A-Z][A-Z])\s+(.+)$", line) #.+ in last group was .*
     if ans:
         print("NUMBER IS", ans.group(1))
         print("ALPHA IS", ans.group(2))
