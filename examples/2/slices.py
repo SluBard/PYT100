@@ -2,7 +2,7 @@
 text = "Spam and eggs"
 
 s1 = text[0]               # "S"
-s2 = text[5:8]             # "and"
+s2 = text[5:8]             # "and"        (b,e]
 s3 = text[4:]              # " and eggs"
 s4 = text[:4]              # "Spam"
 s5 = text[-1]              # "s"

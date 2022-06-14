@@ -4,3 +4,4 @@
    	multi-line comment
 """
 """ another one """
+print(x)
