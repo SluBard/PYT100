@@ -12,7 +12,8 @@ print()
 while value > 0:
     result = value & 1
     fmt = "{0:08b} & {1:08b} =  {2}"
-    txt = fmt.format(value, 1, result)
+    #fmt = "{:08b} & {:08b} = {}"
+    txt = fmt.format(value, 1, result )
     print(txt)
     
     if value & 1:  # bitwise AND
