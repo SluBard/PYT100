@@ -8,4 +8,5 @@ def power(base, expo):
     return answer
     
 help(power)
+print(power.__doc__)
 print(power(2, 5))
