@@ -1,4 +1,4 @@
-def clip(*arg, num):
+def clip(*arg, num=0):
     count = 0
     for i in arg:
         if i > num:

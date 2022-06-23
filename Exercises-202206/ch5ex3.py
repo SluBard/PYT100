@@ -5,5 +5,6 @@ def fun():
     return morefun
 
 f=fun()
+print(f.__name__)
 print(f(3,4))
-#print(fun()(3,4))
+print(fun()(3,4))
