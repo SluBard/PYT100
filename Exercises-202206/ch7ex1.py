@@ -4,6 +4,7 @@ while True:
     input1 = input("Enter a number(end to exit): ")
     if input1 == "end":
         break
+    
     try:
         index = int(input1)
         print("Value located at index location {} is {}".format(index,list1[index]))
