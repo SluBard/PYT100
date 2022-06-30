@@ -65,9 +65,9 @@ k1 = Person("Johnie",2,"M")
 k2 = Person("Janie",3,"F")
 k3 = Person("Paulie",1,"M")
 family = Family(p1,p2,k1,k2)
-smiths = Family(p1,p2,k1)
+#smiths = Family(p1,p2,k1)
 #smiths = Family(p1,p2,k1,k2)
-#smiths = Family(p1,p2,k1,k2,k3)
+smiths = Family(p1,p2,k1,k2,k3)
 
 if family > smiths:
     print("We have more kids than the smiths")

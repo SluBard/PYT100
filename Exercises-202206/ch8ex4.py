@@ -1,7 +1,7 @@
 import sys,os, time
 
 if len(sys.argv) != 3:
-    print("Usage: {} dir size".format(sys.argv[0].split('/')[-1]))
+    print("Usage: {} dir size".format(sys.argv[0].split('\\')[-1]))
     exit()
 
 directory = sys.argv[1]

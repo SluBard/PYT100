@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) == 1:
-    print("Usage: {} [-t] file1 [file2] [...]".format(sys.argv[0].split('/')[-1]))
+    print("Usage: {} [-t] file1 [file2] [...]".format(sys.argv[0].split('\\')[-1]))
     exit()
 
 totals = False

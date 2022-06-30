@@ -1,5 +1,6 @@
 class FamilyError(Exception):
     def __init__(self,msg):
+        #super().__init__(msg)
         self.msg = msg
     def getmsg(self):
         return self.msg
@@ -57,7 +58,7 @@ p1 = Person("Mom",45,"F")
 p2 = Person("Dad",45,"M")
 k1 = Person("Johnie",2,"M")
 k2 = Person("Janie",3,"F")
-family = Family(p1,p2,k1,k2)
+family = Family(p1,p2,k1,k2,1)
 
 k3 = Person("Paulie",1,"M")
 family.add(k3)

@@ -5,7 +5,7 @@ class Fraction:
         self.d = d
     def __str__(self):
         return str(self.n) + "/" + str(self.d)
-    def __lt__(self, other):
+    def __lt__(self, other):     # f1 < f2
         left = self.n / self.d
         right = other.n / other.d
         return left < right

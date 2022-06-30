@@ -16,3 +16,4 @@ class GradStudent(Student):
     def __str__(self):
         parent = Student.__str__(self)
         return parent + " " + str(self.stipend)
+        #return Student.__str__(self) + " " + str(self.stipend)

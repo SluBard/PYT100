@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) != 3:
-    print("Usage: {} source target".format(sys.argv[0].split('/')[-1]))
+    print("Usage: {} source target".format(sys.argv[0].split('\\')[-1]))
     exit()
 
 src = sys.argv[1]

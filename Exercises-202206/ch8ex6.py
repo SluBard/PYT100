@@ -1,6 +1,11 @@
 import sys
 
-list1 = ['file1','file2','file3','file4']
+if len(sys.argv) < 3:
+    print("Usage: {} file1 file2 [filen...]".format(sys.argv[0].split('\\')[-1]))
+    exit()
+
+#list1 = ['file1','file2','file3','file4']
+list1 = sys.argv[1:]
 
 dict1 = dict()
 for item in list1:

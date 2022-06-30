@@ -27,7 +27,7 @@ class Family:
         for i in k:
             self.kids.append(i)
     def __str__(self):
-        string = "{}\n{}\n".format(self.p1,self.p2)
+        string = "{}\n{}".format(self.p1,self.p2)
         for kid in self.kids:
             string += "\n\t{}".format(kid)
         return string
