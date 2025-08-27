@@ -1,0 +1,6 @@
+string = input("Enter a string: ")
+print("Ends with a '.' ? {}".format(string.endswith(".")))
+print("All Alpha? {}".format(string.isalpha()))
+print("Contains an 'x'? {}".format("x" in string))
+print("Length of string? {}".format(len(string)))
+print("Change 'e' to 'E': {}".format(string.replace("e","E")))
