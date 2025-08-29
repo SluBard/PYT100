@@ -17,5 +17,5 @@ else:
         y=3
 
 #ternery expression example
-y = 2 if x== 5 else 3
+y = 2 if x == 5 else 3
 print(x,y)
