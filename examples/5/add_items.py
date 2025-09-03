@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 def addvals(val, **items):
 	total = 0
+	print(type(items))
 	for amt in items.values():
 		if amt > val:
 			total += amt

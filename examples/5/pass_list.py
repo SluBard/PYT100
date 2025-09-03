@@ -14,3 +14,6 @@ for i in range(10):
 	vals.append(i)
 x = thesum(vals)
 print(x)
+
+data = ( 10, 20, 30, 40 )
+print(thesum(data))

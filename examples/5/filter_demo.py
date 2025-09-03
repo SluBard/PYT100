@@ -6,3 +6,6 @@ results = filter(multiple_of_three, range(2, 51))
 for value in results:
     print(value, end=' ')
 print()
+
+print(type(results))
+print(list(filter(multiple_of_three, range(2, 51))))

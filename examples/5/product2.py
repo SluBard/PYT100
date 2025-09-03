@@ -6,3 +6,4 @@ def product(*items, begin):
     return res
 result = product(3, 4, 2, begin = 5)
 print(result)
+product(3, 4, 2, 5)
