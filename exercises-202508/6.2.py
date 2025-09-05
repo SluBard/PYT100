@@ -1,7 +1,7 @@
-import module62
+import module6
 
-def cool():
-    print("local cool")
+def hi():
+    print("local hi")
 
-cool()
-module62.cool()
+hi()
+module6.hi()

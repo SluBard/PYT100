@@ -1,4 +1,4 @@
-import module61
+import module6
 
-module61.hi()
-module61.there()
+module6.hi()
+module6.there()

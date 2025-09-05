@@ -9,5 +9,5 @@ for file in files:
     lines = f.readlines()
     ct += len(lines)
     f.close()
-    print("{} bringes total count to {}.".format(file,ct))
+    print("{} brings total count to {}.".format(file,ct))
 print(ct)
