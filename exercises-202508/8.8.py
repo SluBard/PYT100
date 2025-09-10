@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) == 1:
-    print("Usage:\npython {} files...".format(argv[0]))
+    print("Usage:\npython {} [-t] files...".format(argv[0]))
     exit()
 
 

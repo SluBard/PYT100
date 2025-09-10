@@ -1,6 +1,12 @@
+import sys
+if len(sys.argv) < 2:
+    print("Usage:\npython3 {} file1 ... filen".format(sys.argv[0]))
+    exit()
+    
+sys.argv.pop(0)
+
 histogram=dict()
-for i in range(1,5):
-    fname="file"+str(i)
+for fname in sys.argv:
     f=open(fname)
     names = f.readlines()
     for name in names:

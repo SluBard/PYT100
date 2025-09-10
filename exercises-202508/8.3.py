@@ -17,7 +17,6 @@ while True:
     if not line:
         break
     o.write(line)
-    line = i.readline()
     
 i.close()
 o.close()
