@@ -8,7 +8,7 @@ flights = [ ]
 #	read flight info
 #
 print ("*** Listing flight information ***");
-ffile = open("flights", "r")
+ffile = open("flights.txt", "r")
 for i in ffile:
     (ffrom, to, number) = i.split(",")
     number = number.strip()
@@ -20,7 +20,7 @@ for i in flights:
     print(i)
 	
 print("\n*** opening passenger file ***")	
-pfile = open("passengers", "r")
+pfile = open("passengers.txt", "r")
 print("*** processing passengers  ***")
 for i in pfile:
     (fname, lname, flight, seat) = i.split(",")

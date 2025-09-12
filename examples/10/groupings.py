@@ -3,7 +3,7 @@ import re
 while True:
     line = input("Enter a string ")
     if line == "q": break
-    x = re.search('www\.(a|b|c)\.(com|edu|org)',
+    x = re.search(r'www\.(a|b|c)\.(com|edu|org)',
                   line)
     if x:
         print("Groups:")

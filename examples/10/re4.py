@@ -3,6 +3,6 @@ import re
 while True:
     line = input("enter a string: ")
     if line == "q": break
-    x = re.search('\d\d\s\d\d', line)
+    x = re.search(r'\d\d\s\d\d', line)
     if x:
         print("Match Found")

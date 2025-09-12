@@ -3,6 +3,6 @@ import re
 while True:
     line = input("enter a string: ")
     if line == "q": break
-    x = re.search('\+\*', line)
+    x = re.search(r'\+\*', line)
     if x:
         print("'+*' Found")

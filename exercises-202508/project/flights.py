@@ -18,9 +18,14 @@ class Flight:
     def getpassengercount(self):
         return len(self.manifest)
     def __str__(self):
-        string = "{} -> {} ({}) has {} passengers\n".format(self.getdeparture(),self.getdestination(),self.getflightnumber(),self.getpassengercount())
+        string = "{} -> {} ({}) has {} passengers\n".format(self.getdeparture(),
+                                                            self.getdestination(),
+                                                            self.getflightnumber(),
+                                                            self.getpassengercount())
         for passenger in self.getmanifest():
-            string +="\t{}, {} - seat {}\n".format(passenger.getlast(),passenger.getfirst(),passenger.getseatnumber())
+            string +="\t{}, {} - seat {}\n".format(passenger.getlast(),
+                                                   passenger.getfirst(),
+                                                   passenger.getseatnumber())
         return string
 
 class Flights:

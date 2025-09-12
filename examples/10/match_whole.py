@@ -3,5 +3,5 @@ import re
 while True:
     line = input("> ")
     if line == "q": break
-    x = re.search('^\d{5}(-\d{4})?$', line)
+    x = re.search(r'^\d{5}(-\d{4})?$', line)
     if x: print("Is a ZipCode")

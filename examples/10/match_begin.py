@@ -3,5 +3,5 @@ import re
 while True:
     line = input("> ")
     if line == "q": break
-    x = re.search('^\d{2,5}', line)
+    x = re.search(r'^\d{2,5}', line)
     if x: print("Starts with 2 to 5 digits")

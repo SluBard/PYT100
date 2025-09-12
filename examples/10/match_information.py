@@ -9,3 +9,4 @@ while True:
         print(" Ending Position:", x.end())
         print("    The Number is:", x.group(1))
         print()
+        print(x.group(0))
